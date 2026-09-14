@@ -15,9 +15,15 @@
   <body>
     <div class="header">Rock-Paper-Scis</div>
     <div class="content">
-      <button type="submit" onclick="getChoice(1)">🪨</button>
-      <button type="submit" onclick="getChoice(2)">📃</button>
-      <button type="submit" onclick="getChoice(3)">✂️</button>
+      <div class="Score">
+        <h1>Score : <p1 id="score">0</h1>
+        <p1 id="res"></p1>
+      </div>
+      <div class="choice">
+        <button type="submit" onclick="getChoice(1)">🪨</button>
+        <button type="submit" onclick="getChoice(2)">📃</button>
+        <button type="submit" onclick="getChoice(3)">✂️</button>
+      </div>
     </div>
     <div class="fotter"><a href="index.html">Reset</a></div>
     <script src="script.js"></script>

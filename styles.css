@@ -25,6 +25,7 @@ body {
 
 .content {
   display: flex;
+  flex-direction:column;
   justify-content: center;
   align-items: center;
   gap: 2rem;
@@ -32,6 +33,12 @@ body {
   min-height: 0; /* Allows content to shrink without triggering body scroll */
   background-color: white;
   font-size: 3.5rem;
+}
+.Score{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
 }
 
 /* Kept as .fotter to match your HTML class name */
